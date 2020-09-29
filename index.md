@@ -1,37 +1,12 @@
 # About Me
 
-You can use the [editor on GitHub](https://github.com/erh3429/erh3429.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+Hi, I'm Ethan Hower. I come from a county in PA called Lebanon, known for its balogna (yes, that is really what we are known for). I went to Cedar Crest High School, which was a pretty good experience. We had a pretty good computer science program at my high school thanks to an amazing teacher, so I am fortunate to have a bit of background in computer science and the Software Engineering Life Cycle. In my free time I like to play video games with my friends, I enjoy ping pong and tennis, and I am a big fan of board games. I chose RIT because there were numerous alumni from my school who went to RIT and spoke very highly of it. I am excited to participate in the Software Engineering program, and I look forward to expanding my knowledge in order to prepare for a future career in software engineering. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+![Chicken Piccata](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.cookingclassy.com%2Fcreamy-chicken-piccata%2F&psig=AOvVaw1bxHFDTppwXOpIGH6A62oI&ust=1601473562528000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCIiUzYvAjuwCFQAAAAAdAAAAABAD)
 
-### Markdown
+![SE Link](http://www.se.rit.edu/~swen-101/00/index.html)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/erh3429/erh3429.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## What I Want to Learn
+- How to work efficiently with a team
+- How to properly organize a large/difficult task
+- An idea of what my future software engineering classes will look like
