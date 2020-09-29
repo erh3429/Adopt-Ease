@@ -2,7 +2,7 @@ Hi, I'm Ethan Hower. I come from a county in PA called Lebanon, known for its ba
 
 ![Chicken Piccata](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.cookingclassy.com%2Fcreamy-chicken-piccata%2F&psig=AOvVaw1bxHFDTppwXOpIGH6A62oI&ust=1601473562528000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCIiUzYvAjuwCFQAAAAAdAAAAABAD)
 
-![SE Link](http://www.se.rit.edu/~swen-101/00/index.html)
+[SE Link](http://www.se.rit.edu/~swen-101/00/index.html)
 
 ## What I Want to Learn
 - How to work efficiently with a team
