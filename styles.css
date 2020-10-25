@@ -1,0 +1,21 @@
+body{
+	background-image: url("adopt-main.jpeg");
+	background-size: cover;
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -30%);
+ 
+}
+
+.center button{
+   display: block;
+   padding: 10px 24px;
+   margin: 10px 10px;
+   width: 100%;
+}
