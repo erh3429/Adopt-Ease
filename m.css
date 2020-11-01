@@ -1,0 +1,21 @@
+
+.center {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+label {
+    padding: 6px;
+}
+
+div {
+    padding: 20px;
+}
+
+.registration {
+    font-size: 40px;
+}
+
+#submit {
+    margin-top: 20px;
+}
