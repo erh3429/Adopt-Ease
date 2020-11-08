@@ -6,20 +6,25 @@
       <title>Admin Options</title>
 
       <style>
-        body {background-color: black;}
-        h1 {color: white; font-size: 60px}
-        .button {
-          background-color: gray;
-          border: none;
-          color: white;
-          padding: 30px 115px;
-          text-align: center;
-          text-decoration: none;
-          display: inline-block;
-          font-size: 16px;
-          cursor: pointer;
-	  width: 100%;
+        body {
+		background-image: url("back.jpeg");
+		background-size: cover;}
+        h1 {color: black; font-size: 60px}
+        .center {
+		margin: 0;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		-ms-transform: translate(-50%, -50%);
+		transform: translate(-50%, -30%);
+		}
 
+		.center button{
+		   display: block;
+		   padding: 10px 24px;
+		   margin: 10px 10px;
+		   width: 100%;
+		}
       </style>
 
     </head>
@@ -30,16 +35,13 @@
 			<a href="index.html" class="w3-button w3-bar-item">Home</a>
 		</nav>
 
-      <h1 style="position:relative; top:100px; left:575px">ADMIN Options</h1>
+      <h1 class="center" style=top:100px; left:575px">ADMIN Options</h1>
 
-      <button class="button" style = "position:relative; top:150px;
-left:650px;">Kill Server</button>
-
-      <button class="button" style = "position:relative; top:250px;
-left:300px; padding: 30px 115px">Review Background Check</button>
-
-      <button class="button" style = "position:relative; top:350px;
-left:-125px; padding: 30px 115px">Remove Account</button>
+	  <div class="center">
+	   <button class="w3-button w3-gray w3-xxlarge">Kill Server</button>
+       <button class="w3-button w3-gray w3-xxlarge">Review Background Check</button>
+       <button class="w3-button w3-gray w3-xxlarge">Remove Account</button>
+	  </div>
 
       <button style = "background-color: gray; border: none; color: white;
 padding: 30px 30px; text-align:center; display: inline-block; font-size: 16px;
