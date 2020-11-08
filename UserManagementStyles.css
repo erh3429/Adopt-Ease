@@ -1,0 +1,22 @@
+body{
+	background-image: url("https://images.pexels.com/photos/46024/pexels-photo-46024.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+	background-repeat: no-repeat;
+	background-size: auto
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -30%);
+ 
+}
+
+.center button{
+   display: block;
+   padding: 10px 24px;
+   margin: 10px 10px;
+   width: 100%;
+}
