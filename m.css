@@ -1,4 +1,7 @@
 
+body {
+    background-image: url("img/piggy.jpg");
+}
 .center {
     display: flex;
     align-items: center;
@@ -9,11 +12,12 @@ label {
 }
 
 div {
-    padding: 20px;
+    padding: 30px;
 }
 
 .registration {
-    font-size: 40px;
+    color:white;
+    font-size: 50px;
 }
 
 #submit {
