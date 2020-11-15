@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
+
+<html>
+	<head>
+		<style>
+			body {
+			background-image: url("pawprints.png");
+			background-repeat: repeat-x;
+			background-repeat: repeat-y;
+			background-size: cover;}
+			
+			div{
+				margin-left: auto;
+				margin-right: auto;
+			}
+		</style>
+	</head>
+	<body>
+		<nav class="w3-bar w3-black">
+			<a href="index.html" class="w3-button w3-bar-item">Home</a>
+		</nav>
+		
+		</br>
+		</br>
+		</br>
+		<h1 class="w3-center"><b>Dogs In Your Area</b></h2>
+		</br>
+		
+		<div class="w3-content w3-display-container">
+			
+			<div class="w3-display-container mySlides">
+				<img src="dog1.jpg" style="max-width:100%; max-height: 100vh; margin-left: auto; margin-right: auto;">
+				<div class="w3-display-topleft w3-large w3-container w3-padding-16 w3-black">
+					Charlie, Monroe County
+				</div>
+			</div>
+			
+			<div class="w3-display-container mySlides">
+				<img src="dog2.jpg" style="max-width:100%; max-height: 100vh; margin-left: auto; margin-right: auto;">
+				<div class="w3-display-topleft w3-large w3-container w3-padding-16 w3-black">
+					Bono, Ontario County
+				</div>
+			</div>
+			
+			<div class="w3-display-container mySlides">
+				<img src="dog3.jpg" style="max-width:100%; max-height: 100vh; margin-left: auto; margin-right: auto;">
+				<div class="w3-display-topleft w3-large w3-container w3-padding-16 w3-black">
+					Oreo, Genesee County
+				</div>
+			</div>
+			
+			<div class="w3-display-container mySlides">
+			<img src="dog4.jpeg" style="max-width:100%; max-height: 100vh; margin-left: auto; margin-right: auto;">
+			<div class="w3-display-topleft w3-large w3-container w3-padding-16 w3-black">
+					Pekin, Monroe County
+				</div>
+			</div>
+			
+			<button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+			<button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
+			
+			<div class="w3-container">
+			<a href="" class="w3-button w3-black">More Information</a>
+			<a href="" class="w3-button w3-black w3-right">Shelter Information</a>
+		</div>
+		</div>
+		
+		<script>
+		var slideIndex = 1;
+		showDivs(slideIndex);
+
+		function plusDivs(n) {
+		  showDivs(slideIndex += n);
+		}
+
+		function showDivs(n) {
+		  var i;
+		  var x = document.getElementsByClassName("mySlides");
+		  if (n > x.length) {slideIndex = 1}
+		  if (n < 1) {slideIndex = x.length}
+		  for (i = 0; i < x.length; i++) {
+			x[i].style.display = "none";  
+		  }
+		  x[slideIndex-1].style.display = "block";  
+		}
+		</script>
+	</body>
+</html>
